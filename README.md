@@ -23,7 +23,7 @@ ___
 Running the population model requires the SLiM evolutionary simulation framework. https://messerlab.org/slim/
 
 Runnining the gaussian process models in a jupyter notebook has a number of requirements:
-- Python 3.6 or above: https://www.python.org/downloads/. Note: It looks PyTorch might require the 64 bit Python version of python. To install this, you may have to poke around the Python downloads section. For python 3.8.3, navigate to the bottom of this page: https://www.python.org/downloads/release/python-383/
+- Python 3.6 or above: https://www.python.org/downloads/. Note: PyTorch requires the 64 bit Python version of python. To install this, you may have to poke around the Python downloads section. For python 3.8.3, navigate to the bottom of this page: https://www.python.org/downloads/release/python-383/
 - The following python packages, which could be installed via pip or Conda. Pip commands are as follows:
   - PyTorch: install varies from machine to machine, see https://pytorch.org/get-started/locally/ to configure the required command for your machine. If you want to accelerate the code with your GPU for potentially much faster runtimes, install NVidia's CUDA toolkit first: https://developer.nvidia.com/cuda-downloads.  
   - Jupyter notebook: install via running ``pip install jupyterlab`` in a terminal or command prompt window or by other means.
