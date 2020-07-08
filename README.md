@@ -1,8 +1,8 @@
-# Modeling the potential of CRISPR gene drives for rodent management
+# Modeling CRISPR gene drives for suppression of invasive rodents
 
 <hr style=\"border:3px solid gray\"> </hr>
 
-Files and data to accompany "Modeling the potential of CRISPR gene drives for rodent management".
+Files and data to accompany "Modeling CRISPR gene drives for suppression of invasive rodents".
 
 The "Figures" folder contains high resolution verisons of the figures used in the paper.
 

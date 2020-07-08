@@ -33,7 +33,7 @@ class GPRegressionModel(ExactGP):
 
     def forward(self, x):
         """
-        Takes in n×d data x and returns a MultivariateNormal with the prior mean and covariance evaluated at x.
+        Takes in nxd data x and returns a MultivariateNormal with the prior mean and covariance evaluated at x.
         """
         mean_x = self.mean_module(x)
         covar_x = self.covar_module(x)
