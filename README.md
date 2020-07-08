@@ -16,7 +16,7 @@ Scripts and code in this repository:
 - "rat_gene_drive_model.slim": the population model used in the paper.
 - "rat_gp.py": the code for the GP models.
 - "rat_plot.py": plotting functions for use with the GP models.
-- "GeneDriveForRodentControl.ipynb": a jupyter notebok that can load the pretrained models, which can then generate additional sensitivity analyses, two-at-a-time plots, or three-at-a-time animations. No programming experience is necessary to use this notebook, and the ploting functionality is easy to use.
+- "GeneDriveForInvasiveRodentSuppression.ipynb": a jupyter notebok that can load the pretrained models, which can then generate additional sensitivity analyses, two-at-a-time plots, or three-at-a-time animations. No programming experience is necessary to use this notebook, and the ploting functionality is easy to use.
 
 ___
 ## Requirements
@@ -39,7 +39,7 @@ ___
 After requirements are installed, the jupyter notebook can be run by opening a terminal or command prompt in the folder with these files, and running:
 
 ```
-jupyter notebook GeneDriveForRodentControl.ipynb
+jupyter notebook GeneDriveForInvasiveRodentSuppression.ipynb
 ```
 
 Instructions on using the GP models is present within the notebook.
